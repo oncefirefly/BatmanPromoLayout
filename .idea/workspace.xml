@@ -5,7 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f37d23f2-c6eb-4cf2-a08b-96eff17280ae" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/css/swiper-bundle.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/MuseoSansCyrl-700.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/MuseoSansCyrl-700.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/MuseoSansCyrl-700.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/arrow.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/play-button.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/slide_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/slide_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/star-active.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/star.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/slider.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/swiper-bundle.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,7 +33,9 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="24xtoCGVEY0EyL68VjbIvgH4xgr" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -27,6 +43,7 @@
     <option name="sortByType" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -50,6 +67,8 @@
       <workItem from="1644584263258" duration="513000" />
       <workItem from="1644584815249" duration="545000" />
       <workItem from="1644585397226" duration="4653000" />
+      <workItem from="1644665605851" duration="1189000" />
+      <workItem from="1644755284337" duration="11347000" />
     </task>
     <servers />
   </component>
@@ -66,5 +85,8 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
 </project>
