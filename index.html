@@ -14,134 +14,158 @@
     <link rel="stylesheet" href="./css/styles.css">
     <script src="./js/swiper-bundle.js" defer></script>
     <script src="./js/slider.js" defer></script>
+    <script src="./js/trailerPlayer.js" defer></script>
+    <script src="./js/headerBlockMenu.js" defer></script>
     <title>Batman Promo</title>
 </head>
 <body>
-<header class="header">
-    <div class="container">
-        <div class="header__menu">
-            <div class="header__logo">
-                <img src="./img/logo.svg" alt="logo">
+    <header class="header">
+        <div class="container">
+            <div class="header__menu">
+                <div class="header__logo">
+                    <img src="./img/logo.svg" alt="logo">
+                </div>
+                <nav class="header__nav">
+                    <a href="#">Описание</a>
+                    <a href="#">Трейлер</a>
+                    <a href="#">Отзывы</a>
+                </nav>
             </div>
-            <nav class="header__nav">
+            <div class="header__socials">
+                <a class="header__socials-icon" href="#">
+                    <img src="./img/twitter.svg" alt="twitter">
+                </a>
+                <a class="header__socials-icon" href="#">
+                    <img src="./img/instagram.svg" alt="instagram">
+                </a>
+                <a class="header__socials-icon" href="#">
+                    <img src="./img/facebook.svg" alt="facebook">
+                </a>
+            </div>
+            <div class="header__nav-mobile">
                 <a href="#">Описание</a>
                 <a href="#">Трейлер</a>
                 <a href="#">Отзывы</a>
-            </nav>
-        </div>
-        <div class="header__socials">
-            <a class="header__socials-icon" href="#">
-                <img src="./img/twitter.svg" alt="twitter">
-            </a>
-            <a class="header__socials-icon" href="#">
-                <img src="./img/instagram.svg" alt="instagram">
-            </a>
-            <a class="header__socials-icon" href="#">
-                <img src="./img/facebook.svg" alt="facebook">
-            </a>
-        </div>
-    </div>
-</header>
-
-<main class="main">
-    <div class="container">
-        <div class="main__rating">
-            <div class="main__rating-genre">2022, боевик, триллер</div>
-            <div class="main__rating-wrap">
-                <div class="main__rating-stars">
-                    <div class="main__rating-star active">
-                        <img src="./img/star-active.svg" alt="star-active">
-                    </div>
-                    <div class="main__rating-star active">
-                        <img src="./img/star-active.svg" alt="star-active">
-                    </div>
-                    <div class="main__rating-star active">
-                        <img src="./img/star-active.svg" alt="star-active">
-                    </div>
-                    <div class="main__rating-star active">
-                        <img src="./img/star-active.svg" alt="star-active">
-                    </div>
-                    <div class="main__rating-star active">
-                        <img src="./img/star-active.svg" alt="star-active">
-                    </div>
-                    <div class="main__rating-star active">
-                        <img src="./img/star-active.svg" alt="star-active">
-                    </div>
-                    <div class="main__rating-star active">
-                        <img src="./img/star-active.svg" alt="star-active">
-                    </div>
-                    <div class="main__rating-star">
-                        <img src="./img/star.svg" alt="star">
-                    </div>
-                    <div class="main__rating-star">
-                        <img src="./img/star.svg" alt="star">
-                    </div>
-                    <div class="main__rating-star">
-                        <img src="./img/star.svg" alt="star">
-                    </div>
-                </div>
-                <span class="main__rating-number">7/10</span>
             </div>
+            <div class="header__menu-close">
+                <img src="./img/menu-button-close.svg" alt="close">
+            </div>
+
         </div>
-        <h1 class="main__title">Бэтмен</h1>
-        <div class="main__description-wrap">
-            <p class="main__description">После двух лет поисков правосудия на улицах Готэма для своих сограждан Бэтмен
-                становится олицетворением беспощадного возмездия. Когда в городе происходит серия жестоких нападений на
-                представителей элиты, загадочные улики приводят Брюса Уэйна в самые темные закоулки преступного мира. Теперь
-                под прицелом оказывается сам Бэтмен.</p>
-            <div class="main__button-play">
-                <div class="main__button-dark">
-                    <img src="./img/play-button.svg" alt="play">
+    </header>
+
+    <main class="main">
+        <div class="container">
+            <div class="main__menu-burger">
+                <img src="./img/menu__burger.svg" alt="burger-menu">
+            </div>
+            <div class="main__rating">
+                <div class="main__rating-genre">2022, боевик, триллер</div>
+                <div class="main__rating-wrap">
+                    <div class="main__rating-stars">
+                        <div class="main__rating-star active">
+                            <img src="./img/star-active.svg" alt="star-active">
+                        </div>
+                        <div class="main__rating-star active">
+                            <img src="./img/star-active.svg" alt="star-active">
+                        </div>
+                        <div class="main__rating-star active">
+                            <img src="./img/star-active.svg" alt="star-active">
+                        </div>
+                        <div class="main__rating-star active">
+                            <img src="./img/star-active.svg" alt="star-active">
+                        </div>
+                        <div class="main__rating-star active">
+                            <img src="./img/star-active.svg" alt="star-active">
+                        </div>
+                        <div class="main__rating-star active">
+                            <img src="./img/star-active.svg" alt="star-active">
+                        </div>
+                        <div class="main__rating-star active">
+                            <img src="./img/star-active.svg" alt="star-active">
+                        </div>
+                        <div class="main__rating-star">
+                            <img src="./img/star.svg" alt="star">
+                        </div>
+                        <div class="main__rating-star">
+                            <img src="./img/star.svg" alt="star">
+                        </div>
+                        <div class="main__rating-star">
+                            <img src="./img/star.svg" alt="star">
+                        </div>
+                    </div>
+                    <span class="main__rating-number">7/10</span>
                 </div>
             </div>
-        </div>
-        <a href="#" class="main__button">Купить билеты</a>
-
-        <div class="main__slider-wrap">
-            <div class="main__slider swiper">
-                <div class="swiper-wrapper">
-                    <div class="main__slider-slide swiper-slide">
-                        <img src="./img/slide_1.png" alt="slide">
-                        <span>Трейлер #1</span>
-                    </div>
-                    <div class="main__slider-slide swiper-slide">
-                        <img src="./img/slide_2.png" alt="slide">
-                        <span>Трейлер #2</span>
-                    </div>
-                    <div class="main__slider-slide swiper-slide">
-                        <img src="./img/slide_1.png" alt="slide">
-                        <span>Трейлер #3</span>
-                    </div>
-                    <div class="main__slider-slide swiper-slide">
-                        <img src="./img/slide_2.png" alt="slide">
-                        <span>Трейлер #4</span>
+            <h1 class="main__title">Бэтмен</h1>
+            <div class="main__description-wrap">
+                <p class="main__description">После двух лет поисков правосудия на улицах Готэма для своих сограждан Бэтмен
+                    становится олицетворением беспощадного возмездия. Когда в городе происходит серия жестоких нападений на
+                    представителей элиты, загадочные улики приводят Брюса Уэйна в самые темные закоулки преступного мира.
+                    Теперь
+                    под прицелом оказывается сам Бэтмен.</p>
+                <div class="main__button-play">
+                    <div class="main__button-dark">
+                        <img src="./img/play-button.svg" alt="play">
                     </div>
                 </div>
             </div>
-            <div class="main__slider-arrow">
-                <img src="./img/arrow.svg" alt="arrow">
+            <a href="#" class="main__button">Купить билеты</a>
+
+            <div class="main__slider-wrap">
+                <div class="main__slider swiper">
+                    <div class="swiper-wrapper">
+                        <div class="main__slider-slide swiper-slide">
+                            <img src="./img/slide_1.png" alt="slide">
+                            <span>Трейлер #1</span>
+                        </div>
+                        <div class="main__slider-slide swiper-slide">
+                            <img src="./img/slide_2.png" alt="slide">
+                            <span>Трейлер #2</span>
+                        </div>
+                        <div class="main__slider-slide swiper-slide">
+                            <img src="./img/slide_1.png" alt="slide">
+                            <span>Трейлер #3</span>
+                        </div>
+                        <div class="main__slider-slide swiper-slide">
+                            <img src="./img/slide_2.png" alt="slide">
+                            <span>Трейлер #4</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="main__slider-arrow">
+                    <img src="./img/arrow.svg" alt="arrow">
+                </div>
             </div>
         </div>
-    </div>
-</main>
+    </main>
 
-<footer class="footer">
-    <div class="container">
-        <div class="footer__copy">
-            © 2022 The Batman. All right reserved.
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__copy">
+                © 2022 The Batman. All right reserved.
+            </div>
+            <ul class="footer__menu">
+                <li>
+                    <a href="#">Privacy Policy</a>
+                </li>
+                <li>
+                    <a href="#">Terms of Service</a>
+                </li>
+                <li>
+                    <a href="#">Legal</a>
+                </li>
+            </ul>
         </div>
-        <ul class="footer__menu">
-            <li>
-                <a href="#">Privacy Policy</a>
-            </li>
-            <li>
-                <a href="#">Terms of Service</a>
-            </li>
-            <li>
-                <a href="#">Legal</a>
-            </li>
-        </ul>
+    </footer>
+
+    <div class="modal">
+        <div class="modal__inner">
+            <iframe class="modal__iframe" width="100%" height="100%" src="https://www.youtube.com/embed/g8Y_GL5h7Fs" title="YouTube video player"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+        </div>
     </div>
-</footer>
 </body>
 </html>

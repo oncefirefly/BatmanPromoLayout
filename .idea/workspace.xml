@@ -5,21 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f37d23f2-c6eb-4cf2-a08b-96eff17280ae" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/css/swiper-bundle.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/MuseoSansCyrl-700.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/MuseoSansCyrl-700.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/MuseoSansCyrl-700.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/arrow.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/play-button.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/slide_1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/slide_2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/star-active.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/star.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/slider.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/swiper-bundle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/menu-button-close.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/menu__burger.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/headerBlockMenu.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/trailerPlayer.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/slide_2.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/slide_2.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/slider.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/slider.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,7 +47,7 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="project.scopes" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -68,7 +62,10 @@
       <workItem from="1644584815249" duration="545000" />
       <workItem from="1644585397226" duration="4653000" />
       <workItem from="1644665605851" duration="1189000" />
-      <workItem from="1644755284337" duration="11347000" />
+      <workItem from="1644755284337" duration="11495000" />
+      <workItem from="1644848880619" duration="9816000" />
+      <workItem from="1644863329249" duration="70000" />
+      <workItem from="1644863571722" duration="2340000" />
     </task>
     <servers />
   </component>
